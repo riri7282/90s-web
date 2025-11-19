@@ -1,13 +1,43 @@
 body {
-  font-family: Times New Roman, serif;
-  background-color: DarkGreen;
+  font-family: Times New Roman, serif, Lato;
+  background-color: rgb(75, 97, 89);
 }
 
 h1 {
-  color:yellow;
+  color:rgb(30, 255, 0);
   text-align:center;
+  font-size: 56px;
+  font-style: oblique;
+  font-weight: 500;
+}
+p {
+  color: rgb(163, 216, 29);
+  font-size: x-large;
+
 }
 
+marquee {
+  color: rgb(238, 7, 45);
+  font-size: 64px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+}
+a:link {
+  color: aqua;
+}
+
+a:hover{
+  color: brown;
+}
+
+#danny {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 40px;
+
+}
 /* css for centering an image: */
 #splash{
   display:block;
